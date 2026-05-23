@@ -1,0 +1,4 @@
+Experiment,Features,Split type,MAE,RMSE
+"Random Forest, basic features, random split",R/G/B mean and std,Random row split,5.87913676042677,9.058764520947367
+"Random Forest, basic features, video-based split",R/G/B mean and std,Video-based split,11.41217261904762,14.698130566936001
+"Random Forest, extended features, video-based split","mean, std, min, max, median, diff",Video-based split,11.376011904761905,15.005365174755921

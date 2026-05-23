@@ -1,0 +1,5 @@
+Experiment,Best model,MAE,RMSE,Comment
+"Simple RGB features, source1",RandomForest,11.38,15.01,Базовый вариант на RGB-статистиках.
+"rPPG/POS features, source2",ExtraTrees,8.08,10.78,Основной итоговый вариант; соответствует same source.
+"Engineered/tuned features, source2",ExtraTrees tuned,8.2,10.99,Подбор гиперпараметров не улучшил качество.
+"Sources 1+2+3, group split",ExtraTrees,9.7,12.44,"При разных источниках качество ниже, но лучше baseline."
